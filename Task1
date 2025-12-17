@@ -53,7 +53,6 @@ def delete_task():
     except ValueError:
         print("❌ Please enter a valid number.")
 
-# Main program
 while True:
     show_menu()
     choice = input("Choose an option (1-5): ").strip()
@@ -70,3 +69,4 @@ while True:
         break
     else:
         print("❌ Invalid option. Try again.")
+
